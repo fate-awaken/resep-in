@@ -1,0 +1,96 @@
+<template>
+    <div class="page" data-name="skill">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Skill & Language</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="block-title">My Ability</div>
+
+            <div class="block text-align-center">
+                <h3 class="text-color-grey">About Skill</h3>
+            </div>
+
+            <div class="block block-strong">
+                <div class="row">
+
+                    <div class="col text-align-center">
+                        <div class="gauge gauge-init" data-type="semicircle" data-value="1" data-value-text="100%"
+                            data-value-text-color="#303952" data-border-color="#303952" data-label-text="Web Programming">
+                        </div>
+                    </div>
+
+                    <div class="col text-align-center">
+                        <div class="gauge gauge-init" data-type="semicircle" data-value="0.75" data-value-text="75%"
+                            data-value-text-color="#e15f41" data-border-color="#e15f41" data-label-text="UI/UX Design">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="block block-strong">
+                <div class="row">
+
+                    <div class="col text-align-center">
+                        <div class="gauge gauge-init" data-type="semicircle" data-value="0.80" data-value-text="80%"
+                            data-value-text-color="#3dc1d3" data-border-color="#3dc1d3" data-label-text="DBMS">
+                        </div>
+                    </div>
+
+                    <div class="col text-align-center">
+                        <div class="gauge gauge-init" data-type="semicircle" data-value="0.30" data-value-text="30%"
+                            data-value-text-color="#596275" data-border-color="#596275" data-label-text="Mobile Android">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="block text-align-center">
+                <h3 class="text-color-grey">About Language</h3>
+            </div>
+
+            <div class="block block-strong">
+                <div class="row">
+                    <div class="col text-align-left">
+                        <h3 class="text-color-grey"> Bahasa</h3>
+                        <div class="progressbar color-blue" data-progress="100"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-align-left">
+                        <h3 class="text-color-grey"> English</h3>
+                        <div class="progressbar color-green" data-progress="90"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-align-left">
+                        <h3 class="text-color-grey"> Arabic</h3>
+                        <div class="progressbar color-yellow" data-progress="65"></div>
+                    </div>
+                </div>
+                <div class="row padding-bottom">
+                    <div class="col text-align-left">
+                        <h3 class="text-color-grey"> Germany</h3>
+                        <div class="progressbar color-orange" data-progress="70"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</template>
+<script>
+    export default () => {
+        return $render;
+    };
+</script>

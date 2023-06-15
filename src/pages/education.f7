@@ -1,0 +1,52 @@
+<template>
+    <div class="page" data-name="education">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Education</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="block-title">Education History</div>
+            <div class="block block-strong">
+                <p>Berikut ini adalah data histori pendidikan formal saya.</p>
+            </div>
+
+            <div class="card card-header">
+                <div class="demo-facebook-avatar">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2490/2490354.png" width="34" height="34" />
+                </div>
+                <div class="demo-facebook-name">SDN 1 Jakarta</div>
+                <div class="demo-facebook-name">1990 - 1996</div>
+            </div>
+
+            <div class="card card-header">
+                <div class="demo-facebook-avatar">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2490/2490354.png" width="34" height="34" />
+                </div>
+                <div class="demo-facebook-name">SMPN 1 Jakarta</div>
+                <div class="demo-facebook-name">1996 - 1998</div>
+            </div>
+
+            <div class="card card-header">
+                <div class="demo-facebook-avatar">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2490/2490354.png" width="34" height="34" />
+                </div>
+                <div class="demo-facebook-name">SMAN 1 Jakarta</div>
+                <div class="demo-facebook-name">1998 - 2001</div>
+            </div>
+
+        </div>
+    </div>
+</template>
+<script>
+    export default () => {
+        return $render;
+    };
+</script>

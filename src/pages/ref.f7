@@ -1,0 +1,91 @@
+<!-- Contoh Code diambil dari list -->
+<template>
+    <div class="page" data-name="ref">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Reference</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="block-title">Referensi Kontak</div>
+
+            <div class="list media-list  list-outline-ios list-strong-ios list-dividers-ios">
+                <ul>
+                    <li>
+                        <a class="item-link item-content" href="/d_ref1/">
+                            <div class="item-media">
+                                <img style="border-radius: 8px" src="../assets/img/ref1.png" width="70" />
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">PT. NAIRA BOILERINDO PERKASA</div>
+                                </div>
+                                <div class="item-subtitle">Jhon Doe</div>
+                                <div class="item-text">Perusahaan Pelaksanaan konstruksi berbentuk PT. PT. NAIRA
+                                    BOILERINDO PERKASA beralamat di JL. KUINI KOMP. KUINIMAS NO. 19 XY KEL. WONOREJO
+                                    kabupaten Kota Pekan Baru.</div>
+                            </div>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-link item-content" href="/d_ref2/">
+                            <div class="item-media">
+                                <img style="border-radius: 8px" src="../assets/img/ref2.png" width="70" />
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">PT. SINAR TIMUR UTAMA RAYA</div>
+                                </div>
+                                <div class="item-subtitle">Queen Tessa</div>
+                                <div class="item-text">perusahaan Pelaksanaan konstruksi berbentuk PT. PT. SINAR TIMUR
+                                    UTAMA RAYA beralamat di Jl. Karya Baru No.60 H, Kel. Parittokarya Kec. Pontianak
+                                    kabupaten Kota Pontianak.</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-link item-content" href="/d_ref3/">
+                            <div class="item-media"><img style="border-radius: 8px" src="../assets/img/ref3.png"
+                                    width="70" />
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">PT. RAHMA BERKAH JAYA</div>
+                                </div>
+                                <div class="item-subtitle">Billie Jean</div>
+                                <div class="item-text"> perusahaan Pelaksanaan konstruksi berbentuk PT. PT. RAHMA BERKAH JAYA beralamat di Dusun III Alai Kel. Kuala Tanjung Kec. Sei Suka kabupaten Kab. Batu Bara.</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item-link item-content" href="/d_ref4/">
+                            <div class="item-media"><img style="border-radius: 8px" src="../assets/img/ref4.png"
+                                    width="70" />
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">CV. SINAR LESTARI JAYA</div>
+                                </div>
+                                <div class="item-subtitle">Dave Begajulan</div>
+                                <div class="item-text">perusahaan Pelaksanaan konstruksi berbentuk CV. CV. SINAR LESTARI JAYA beralamat di Jalan Taruna Bhakti Kel. Palam Kec. Cempaka kabupaten Kota Banjar Baru.</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+    export default () => {
+        return $render;
+    };
+</script>

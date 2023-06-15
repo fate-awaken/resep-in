@@ -1,0 +1,80 @@
+<template>
+    <div class="page" data-name="eemploy">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Works</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="block-title">Employment History</div>
+            <div class="block">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-item-date"><small>JAN</small> 2015</div>
+                        <div class="timeline-item-divider"></div>
+                        <div class="timeline-item-content">
+                            <div class="timeline-item-inner">
+                                <div class="timeline-item-time">First Job</div>
+                                <div class="timeline-item-title">UI/UX Design</div>
+                                <div class="timeline-item-subtitle"><a href="/d_ref1/">PT. NAIRA BOILERINDO PERKASA</a> </div>
+                                <div class="timeline-item-text">Work in a small team, to complete a mobile-based human resource management system</div>
+                                <div class="timeline-item-time">Next Job</div>
+                                <div class="timeline-item-title">Mobile Improvment</div>
+                                <div class="timeline-item-subtitle">Embedding AI</div>
+                                <div class="timeline-item-text">After the mobile-based human resource management system can run in the company, the next task is to improvise by applying an artificial intelligence (AI) model.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-date"><small>DEC</small> 2018</div>
+                        <div class="timeline-item-divider"></div>
+                        <div class="timeline-item-content">
+                            <div class="timeline-item-inner">
+                                <div class="timeline-item-time">Second Job</div>
+                                <div class="timeline-item-title">Project Leader</div>
+                                <div class="timeline-item-subtitle"><a href="/d_ref2/">on PT. SINAR TIMUR UTAMA RAYA</a></div>
+                                <div class="timeline-item-text">Developing modeling and automation of material supply and supply chain of construction material needs</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-date"><small>APR</small> 2020</div>
+                        <div class="timeline-item-divider"></div>
+                        <div class="timeline-item-content">
+                            <div class="timeline-item-inner">
+                                <div class="timeline-item-time">Third Job</div>
+                                <div class="timeline-item-title">Develop System</div>
+                                <div class="timeline-item-subtitle"><a href="/d_ref3/">on PT. RAHMA BERKAH JAYA</a></div>
+                                <div class="timeline-item-text">appraisal information system and construction feasibility study</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-date"><small>MAR</small> 2022</div>
+                        <div class="timeline-item-divider"></div>
+                        <div class="timeline-item-content">
+                            <div class="timeline-item-inner">
+                                <div class="timeline-item-time">Last Job</div>
+                                <div class="timeline-item-title">Dev'ops</div>
+                                <div class="timeline-item-subtitle"><a href="/d_ref4/">on CV. SINAR LESTARI JAYA</a></div>
+                                <div class="timeline-item-text">Manage all company data</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+    export default () => {
+        return $render;
+    };
+</script>

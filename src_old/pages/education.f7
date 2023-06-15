@@ -1,0 +1,82 @@
+<template>
+  <div class="page" data-name="education">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Education History</div>
+      </div>
+    </div>
+    <div class="page-content">
+
+      <div class="card demo-facebook-card">
+        <div class="card-header">
+          <div class="demo-facebook-avatar"><img src="https://cdn.framework7.io/placeholder/people-68x68-1.jpg" width="34" height="34" /></div>
+          <div class="demo-facebook-name">SDN Depok Jaya</div>
+          <div class="demo-facebook-name">2008 - 2015</div>
+        </div>
+      </div>
+
+      <div class="card demo-facebook-card">
+        <div class="card-header">
+          <div class="demo-facebook-avatar"><img src="https://cdn.framework7.io/placeholder/people-68x68-1.jpg" width="34" height="34" /></div>
+          <div class="demo-facebook-name">SMPN 9 Depok</div>
+          <div class="demo-facebook-name">2015 - 2018</div>
+        </div>
+      </div>
+
+      <div class="card demo-facebook-card">
+        <div class="card-header">
+          <div class="demo-facebook-avatar"><img src="https://cdn.framework7.io/placeholder/people-68x68-1.jpg" width="34" height="34" /></div>
+          <div class="demo-facebook-name">SMA Sejahtera 1 Depok</div>
+          <div class="demo-facebook-name">2018 - 2021</div>
+        </div>
+      </div>
+
+      <div class="block">
+        <div class="data-table card">
+          <table>
+            <thead>
+              <tr>
+                <th class="label-cell">No</th>
+                <th class="label-cell">Pendidikan</th>
+                <th class="label-cell">Masuk</th>
+                <th class="label-cell">Lulus</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="label-cell">1.</td>
+                <td class="label-cell">SD</td>
+                <td class="label-cell">1999</td>
+                <td class="label-cell">2006</td>
+              </tr>
+              <tr>
+                <td class="label-cell">2.</td>
+                <td class="label-cell">SMP</td>
+                <td class="label-cell">2006</td>
+                <td class="label-cell">2008</td>
+              </tr>
+              <tr>
+                <td class="label-cell">3.</td>
+                <td class="label-cell">SMA</td>
+                <td class="label-cell">2008</td>
+                <td class="label-cell">2010</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

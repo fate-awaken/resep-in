@@ -1,0 +1,93 @@
+<template>
+    <div class="page" data-name="detail_ref1">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">PT. NAIRA BOILERINDO PERKASA</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="block-title">Summarry</div>
+            <div class="card">
+                <!-- Foto Profile -->
+                <div class="card-content padding-top padding-bottom">
+                    <div class="row">
+                        <div class="col-20"></div>
+                        <div class="col-60">
+                            <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px"
+                                src="../assets/img/ref1.png" width="100%" />
+                        </div>
+                        <div class="col-20"></div>
+                    </div>
+                </div>
+                <!-- End Foto -->
+                <!-- Nama Profile -->
+                <div class="card-content padding-bottom">
+                    <div class="row">
+                        <div class="col-10"></div>
+                        <div class="col-80 text-align-center">
+                            <h2 class="text-color-teal">Bapak Jhon Doe</h2>
+                            <hr />
+                        </div>
+                        <div class="col-10"></div>
+                    </div>
+                </div>
+                <!-- End Nama -->
+                <!-- Deskripsi -->
+                <div class="card-content padding-bottom">
+                    <div class="row">
+                        <div class="col-5"></div>
+                        <div class="col-90 text-align-justify">
+                            <p>
+                                PT. NAIRA BOILERINDO PERKASA adalah perusahaan Pelaksanaan konstruksi berbentuk PT. PT. NAIRA BOILERINDO PERKASA beralamat di JL. KUINI KOMP. KUINIMAS NO. 19 XY KEL. WONOREJO kabupaten Kota Pekan Baru.
+                            </p>
+                        </div>
+                        <div class="col-5"></div>
+                    </div>
+                </div>
+                <div class="card-content padding-bottom">
+                    <div class="row">
+                        <div class="col-5"></div>
+                        <div class="col-90 text-align-center">
+                            <a class="link external" href="https://indokontraktor.com/business/pt-naira-boilerindo-perkasa">
+                                <i class="f7-icons">globe</i> <p style="font-size: 14pt; font-weight: bold;">Go to Website</p> 
+                            </a>
+                        </div>
+                        <div class="col-5"></div>
+                    </div>
+                </div>
+                <!-- End Deskripsi -->
+                <div class="card-content padding-left padding-right padding-bottom">
+                    <div class="row padding-top">
+                        <div class="col-50"><strong> Alamat</strong> </div>
+                        <div class="col-50">Jl. Riang Gembira Raya No.8 Pekan Baru</div>
+                    </div>
+                    <div class="row padding-top">
+                        <div class="col-50"><strong> Telepon</strong> </div>
+                        <div class="col-50">
+                            <i class="f7-icons">phone</i> (021) 123 321 <br/>
+                            <i class="f7-icons">phone_circle</i> 0857 7776 0999
+                        </div>
+                    </div>
+                    <div class="row padding-top">
+                        <div class="col-50"><strong> Email</strong> </div>
+                        <div class="col-50">boilerindo@mail.com</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</template>
+<script>
+    export default () => {
+        return $render;
+    };
+</script>

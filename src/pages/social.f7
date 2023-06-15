@@ -1,0 +1,73 @@
+<template>
+    <div class="page" data-name="social">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Social Media</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="block-title">Follow me on</div>
+
+            <div class="block text-align-center">
+                <h3 class="text-color-grey">Social Media</h3>
+            </div>
+
+            <div class="block block-strong">
+                <div class="row">
+
+                    <div class="col text-align-center">
+                        <a href="">
+                            <img class="lazy lazy-fade-in demo-lazy" src="https://cdn-icons-png.flaticon.com/512/3665/3665148.png" width="100%" />
+                        </a>
+                    </div>
+                    
+                    <div class="col text-align-center">
+                        <a href="">
+                            <img class="lazy lazy-fade-in demo-lazy" src="https://cdn-icons-png.flaticon.com/512/3665/3665145.png" width="100%" />
+                        </a>
+                    </div>
+
+                    <div class="col text-align-center">
+                        <a href="">
+                            <img class="lazy lazy-fade-in demo-lazy" src="https://cdn-icons-png.flaticon.com/512/3665/3665141.png" width="100%" />
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row padding-top">
+
+                    <div class="col text-align-center">
+                        <a href="">
+                            <img class="lazy lazy-fade-in demo-lazy" src="https://cdn-icons-png.flaticon.com/512/3665/3665165.png" width="100%" />
+                        </a>
+                    </div>
+
+                    <div class="col text-align-center">
+                        <a href="">
+                            <img class="lazy lazy-fade-in demo-lazy" src="https://cdn-icons-png.flaticon.com/512/3665/3665172.png" width="100%" />
+                        </a>
+                    </div>
+
+                    <div class="col text-align-center">
+                        
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</template>
+<script>
+    export default () => {
+        return $render;
+    };
+</script>

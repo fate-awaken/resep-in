@@ -1,0 +1,105 @@
+<template>
+    <div class="page" data-name="profile">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Profile</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="block-title">My Profile</div>
+            <div class="card">
+                <!-- Foto Profile -->
+                <div class="card-content padding-top padding-bottom">
+                    <div class="row">
+                        <div class="col-20"></div>
+                        <div class="col-60">
+                            <img class="lazy lazy-fade-in demo-lazy"
+                                src="https://cdn-icons-png.flaticon.com/512/2922/2922510.png" width="100%" />
+                        </div>
+                        <div class="col-20"></div>
+                    </div>
+                </div>
+                <!-- End Foto -->
+                <!-- Nama Profile -->
+                <div class="card-content padding-bottom">
+                    <div class="row">
+                        <div class="col-10"></div>
+                        <div class="col-80 text-align-center">
+                            <h2 class="text-color-teal">Yoseph Tajul Arifin, M.Kom</h2>
+                            <hr />
+                        </div>
+                        <div class="col-10"></div>
+                    </div>
+                </div>
+                <!-- End Nama -->
+                <!-- Deskripsi -->
+                <div class="card-content padding-bottom">
+                    <div class="row">
+                        <div class="col-5"></div>
+                        <div class="col-90 text-align-center">
+                            <p>
+                                Dosen di Universitas Bina Sarana Informatika Fakultas Teknik dan Informatika – Program
+                                Studi Teknik Elektro Jl. Kramat Raya No.98, Kwitang, Kec. Senen, Kota Jakarta Pusat DKI
+                                Jakarta 10450, Indonesia
+                            </p>
+                        </div>
+                        <div class="col-5"></div>
+                    </div>
+                </div>
+                <!-- End Deskripsi -->
+                <!-- Personal Info -->
+                <div class="card-content padding-top padding-left padding-right padding-bottom">
+                    <div class="row padding-top">
+                        <div class="col-50"><strong>Tempat, Tanggal Lahir</strong> </div>
+                        <div class="col-50">Jakarta, 03 April 2023</div>
+                    </div>
+                    <div class="row padding-top">
+                        <div class="col-50"><strong> Alamat</strong> </div>
+                        <div class="col-50">Jl. Margonda Raya No.8 Depok - Jawa Barat 14921</div>
+                    </div>
+                    <div class="row padding-top">
+                        <div class="col-50"><strong> Telepon</strong> </div>
+                        <div class="col-50">
+                            <i class="f7-icons">phone</i> (021) 123 321 <br/>
+                            <i class="f7-icons">phone_circle</i> 0857 7776 0999
+                        </div>
+                    </div>
+                    <div class="row padding-top">
+                        <div class="col-50"><strong> Email</strong> </div>
+                        <div class="col-50">yoseph@mail.com</div>
+                    </div>
+                </div>
+                <!-- End Personal Info -->
+                <!-- Button Back -->
+                <div class="card-content padding-bottom">
+                    <div class="row no-gap">
+                        <div class="col"></div>
+                        <div class="col text-align-center">
+                            <a href="#" class="link back">
+                                <button class="button button-fill color-orange">
+                                    <i class="f7-icons">arrow_left</i>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+                <!-- End Button Back -->
+
+            </div>
+
+        </div>
+    </div>
+</template>
+<script>
+    export default () => {
+        return $render;
+    };
+</script>

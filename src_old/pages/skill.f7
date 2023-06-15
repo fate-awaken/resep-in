@@ -1,0 +1,47 @@
+<template>
+  <div class="page" data-name="skill">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Skill & Language</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block-title">Skill & Language</div>
+      <div class="block block-strong">
+        <h1 class="text-align-center">Skill & Language</h1>
+
+        <div class="row">
+          <div class="col text-align-center">
+            <div class="col text-align-center">
+              <div class="gauge gauge-init" data-type="semicircle" data-value="0.8" data-value-text="80%" data-value-text-color="#0097e6" data-border-color="#0097e6" data-label-text="Web Programming"></div>
+            </div>
+          </div>
+
+          <div class="col text-align-center">
+            <div class="col text-align-center">
+              <div class="gauge gauge-init" data-type="semicircle" data-value="0.3" data-value-text="30%" data-value-text-color="#e1b12c" data-border-color="#e1b12c" data-label-text="Mobile Programming"></div>
+            </div>
+          </div>
+
+          <div class="col text-align-center">
+            <div class="col text-align-center">
+              <div class="gauge gauge-init" data-type="semicircle" data-value="0.5" data-value-text="50%" data-value-text-color="#8c7ae6" data-border-color="#8c7ae6" data-label-text="UI/UX Design"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default () => {
+    return $render;
+  };
+</script>
