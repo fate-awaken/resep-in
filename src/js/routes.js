@@ -1,5 +1,7 @@
 
 import HomePage from '../pages/home.f7';
+import NasiGoreng from '../pages/menu/nasi-goreng/nasi-goreng.f7';
+import NasiGorengStep from '../pages/menu/nasi-goreng/step.f7';
 import ProfilePage from '../pages/profile.f7';
 import EducationPage from '../pages/education.f7';
 import SkillPage from '../pages/skill.f7';
@@ -22,6 +24,14 @@ var routes = [
     component: HomePage,
   },
   {
+    path: '/nasigoreng/',
+    component: NasiGoreng,
+  },
+  {
+    path: '/nasigorengstep/',
+    component: NasiGorengStep,
+  },
+  {
     path: '/profile/',
     component: ProfilePage,
   },
@@ -41,6 +51,7 @@ var routes = [
     path: '/employ/',
     component: EmployPage,
   },
+
   {
     path: '/ref/',
     component: RefPage,

@@ -1,0 +1,54 @@
+<template>
+    <div class="page" data-name="">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Resep Nasi Goreng</div>
+            </div>
+        </div>
+
+        <div class="page-content">
+            <center>
+                <h3>Langkah ke-1</h3>
+                <p>Panaskan minyak di wajan</p>
+                <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px; margin-top: 5px" src="../assets/img/step1.jpeg" width="70%" alt="photo1" />
+            </center>
+            
+            <center>
+                <h3>Langkah ke-2</h3>
+                <p>Tumis bawang putih dan bawang merah hingga kecoklatan</p>
+                <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px; margin-top: 5px" src="../assets/img/step2.jpeg" width="70%" alt="photo1" />
+            </center>
+
+            <center>
+                <h3>Langkah ke-3</h3>
+                <p>Pecahkan 2 telur dan kocok sampai merata</p>
+                <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px; margin-top: 5px" src="../assets/img/step3.jpeg" width="70%" alt="photo1" />
+            </center>
+
+            <center>
+                <h3>Langkah ke-4</h3>
+                <p>Masukan telur dan aduk bersama tumisan tadi</p>
+                <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px; margin-top: 5px" src="../assets/img/step4.jpeg" width="70%" alt="photo1" />
+            </center>
+
+            <center>
+                <h3>Langkah ke-5</h3>
+                <p>Masukan Nasi</p>
+                <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px; margin-top: 5px" src="../assets/img/step5.jpeg" width="70%" alt="photo1" />
+            </center>
+
+            <center>
+                <h3>Langkah ke-6</h3>
+                <p>Selesai</p>
+                <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px; margin-top: 5px" src="../assets/img/step6.jpeg" width="70%" alt="photo1" />
+            </center>
+        </div>
+    </div>
+</template>

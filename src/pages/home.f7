@@ -35,62 +35,23 @@
         </div>
       </div>
 
+      <!-- PIlihan Resep -->
       <div class="block">
         <div class="row">
           <div class="col" width="50%" style="background-color: lightgrey; border-radius: 20px">
             <center>
               <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px; margin-top: 30px" src="../assets/img/nasi-goreng.jpg" width="70%" alt="photo1" />
               <h4>Nasi Goreng</h4>
-              <a style="margin: 10px;" class="button button-raised button-round button-fill button-small">Lihat Resep</a>
+              <a href="/nasigoreng/" style="margin: 10px" class="button button-raised button-round button-fill button-small">Lihat Resep</a>
             </center>
           </div>
           <div class="col" width="50%" style="background-color: lightgrey; border-radius: 20px">
             <center>
-              <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px; margin-top: 30px" src="../assets/img/nasi-goreng.jpg" width="70%" alt="photo1" />
-              <h4>Nasi Goreng</h4>
+              <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px; margin-top: 30px" src="../assets/img/telur-mata-sapi.jpg" width="70%" alt="photo1" />
+              <h4>Telur Mata Sapi</h4>
+              <a style="margin: 10px" class="button button-raised button-round button-fill button-small">Lihat Resep</a>
             </center>
           </div>
-        </div>
-      </div>
-
-      <!-- Icon & Menu -->
-      <div class="block">
-        <div class="row">
-          <div class="col">
-            <div class="row">
-              <div class="col text-align-center">
-                <img style="background-color: lightgrey; border-radius: 20px; padding: 10px" src="https://cdn-icons-png.flaticon.com/128/236/236831.png" width="70%" alt="icon1" />
-              </div>
-              <div class="col text-align-center">
-                <img style="background-color: lightgrey; border-radius: 20px; padding: 10px" src="https://cdn-icons-png.flaticon.com/512/993/993686.png" width="70%" alt="icon1" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col text-align-center">
-                <img style="background-color: lightgrey; border-radius: 20px; padding: 10px" src="https://cdn-icons-png.flaticon.com/512/3145/3145765.png" width="70%" alt="icon1" />
-              </div>
-              <div class="col text-align-center">
-                <img style="background-color: lightgrey; border-radius: 20px; padding: 10px" src="https://cdn-icons-png.flaticon.com/512/4997/4997543.png" width="70%" alt="icon1" />
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px" src="../assets/img/photo.jpg" width="90%" alt="photo1" />
-          </div>
-        </div>
-      </div>
-
-      <!-- Utilities App -->
-      <div class="block">
-        <div class="row">
-          <div class="col"></div>
-          <div class="col text-align-center">
-            <img style="background-color: lightgrey; border-radius: 20px; padding: 10px" src="https://cdn-icons-png.flaticon.com/128/1968/1968666.png" width="70%" alt="icon1" />
-          </div>
-          <div class="col text-align-center">
-            <img style="background-color: lightgrey; border-radius: 20px; padding: 10px" src="https://cdn-icons-png.flaticon.com/128/2190/2190552.png" width="70%" alt="icon1" />
-          </div>
-          <div class="col"></div>
         </div>
       </div>
 

@@ -1,0 +1,41 @@
+<template>
+    <div class="page" data-name="">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Resep Nasi Goreng</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <center>
+                <h2>Cara membuat Nasi Goreng</h2>
+                <img class="lazy lazy-fade-in demo-lazy" style="border-radius: 8px; margin-top: 30px" src="../assets/img/nasi-goreng.jpg" width="70%" alt="photo1" />
+            </center>
+
+            <center>
+                <h3>Bahan-Bahan</h3>
+                <li>600 Gram Nasi</li>
+                <li>2 Butir Telur</li>
+                <li>1 Bawang Bombay</li>
+                <li>2 Siung Bawang Putih</li>
+                <li>1 Siung Bawah Merah</li>
+                <li>Garam</li>
+                <li>Lada</li>
+                <li>Minyak Goreng</li>
+            </center>
+
+            <a href="/nasigorengstep/" style="margin: 20px 50px 0 50px" class="button button-raised button-round button-fill button-small">Langkah-Langkah</a>
+        </div>
+    </div>
+</template>
+<script>
+    export default () => {
+        return $render;
+    };
+</script>
